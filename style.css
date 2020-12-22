@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    border:0;
+
+}
+
+.navbar{
+    min-height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+}
+
+.navbar-default{
+    background-color:transparent;
+    font-size: 20px;
+    height:95px;
+    padding: top 0; 
+} 
+.icon-bar {
+    color:navy;
+}
+
+li a {
+    color:navy;
+}
+
+.logo{
+    height:70px;
+    width:70px;
+}
+
+.toppage{
+    background: url('bg1.png');
+    padding: 50px;
+    height: 800px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0% 0;
+}
+
+.bottompage{
+    padding: 50px;
+    height: 800px;
+}
+.big-text{
+    font-size: 52px;
+    margin: 20px;
+    color: navy;
+}
+
+a.btn{
+    margin: 30px 10px;
+    width:150px;
+    padding:10px;
+    border-radius: 20px;
+}
+
+a.btn-first{
+    background-color: grey;
+    color:navy;
+}
+
+a.btn-second{
+    background: transparent;
+    border: 1px solid grey;
+    color:navy
+}
+
+a.btn:hover{
+    background: navy;
+    border:none;
+    color: darkgrey;
+    box-shadow: 5px 5px 10px #999;
+    transition:0.3s;
+}
+
+.banner-info, .banner-image{
+    margin:30px 0;
+}
