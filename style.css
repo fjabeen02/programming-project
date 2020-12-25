@@ -1,11 +1,8 @@
-html,body,header,.view{
+html,body,.view{
     height: 100%;
     scroll-behavior: smooth;
 }
 
-.top-nav-collapse{
-    background-color: rgb(37, 124, 95);
-}
 
 .view{
     background: url('bg1.png') no-repeat center;

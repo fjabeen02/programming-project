@@ -1,0 +1,19 @@
+{
+  "name": "programming-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "maintest.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fjabeen02/programming-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fjabeen02/programming-project/issues"
+  },
+  "homepage": "https://github.com/fjabeen02/programming-project#readme"
+}
