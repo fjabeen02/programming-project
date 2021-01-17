@@ -1,67 +1,130 @@
+
 <html>
 <head>
-    <title>TITLE</title>
+    <meta charset="UTF-8">
+    <title>View from the Screen</title>
+    <link rel="icon" href="icon1.png">
     <link rel= "stylesheet" type="text/css" href="style.css"> 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <nav class="navbar sticky-top navbar-expand-md navbar-light"style = "background-color:rgba(82, 228, 209, 0.3); ">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="icon1.png" alt="" width="40" height="40">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#home" data-taraget='home'>Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about" data-taraget='about'>About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#gallery" data-taraget='gallery'>Gallery</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact" data-taraget='contact'>Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
     
 </head>
 <body>
-    <div class='page active' id='home'>
-        <div class="view">
-            <div class="flex-center">
-            <a href="#scroll" class="btn btn-primary">Scroll Down</a>
+    <main>
+        <nav class="navbar sticky-top navbar-expand-md navbar-light" style = "background-color:rgba(82, 228, 209, 0.3); ">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="icon1.png" alt="" width="40" height="40">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target='home'>Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target='gallery'>Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target='searchimage'>Search for an image</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-target='comment'>Leave a comment!</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        
-        <main class="text-center py-5" id="scroll">
-        <div class="container">
-            <div class="row">
-            <div class="col-md-12">
-                <div id="app"></div>
-                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
-                <p align="justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            </div>
-        </div>
-        </main>
-    </div> 
+        </nav>
 
-    <div class='page' id='about'>
-    </div>
-    <div class='page' id='gallery'>
-    </div>
-    <div class='page' id='contact'>
-    </div>
-    
+        <div class='page active' id='home'>
+            <div class="view"></div>
+            <div class="container">
+                <div class="row">
+                <div class="col-md-12">
+                    <div id="app"></div>
+                    <p>Welcome to seeing the world through the comfort of your screen !</p>
+                    <p>This website will take you to some of the most beautiful remote places this earth has to offer through the images posted in our gallery. Please leave comments on these images and feel free to post any of your own images so that other users can enjoy your travels with you. We'd love for you to join us so make sure to follow us on Instagram, Twitter and Facebook. Sign up to our newsletter for new and exciting updates about our journey. Whether you're look for inspiration for an upcoming adventure or just looking to browse, our gallery has everything you need.</p>
+                    <img src="socials.png" alt='socials' class="fix"/>
+                </div>
+                </div>
+            </div>
+        </div> 
+
+
+        <div class='page' id='gallery'>
+            <h1>gallery</h1>
+            <div class="row" id='imagesHere'></div>
+            <h2>Add your own image !</h2>
+            <form id='image-form'>
+                <div class='form-group'>
+                    <label for='nameImageForm'>Name</label>
+                    <input class='form-control' name='name' id='nameImageForm' required>
+                </div>
+                <div class='form-group'>
+                    <label for='titleImageForm'>Title of Image</label>
+                    <input class='form-control' name='title' id='titleImageForm' required >
+                </div>
+                <input type='file' id='imageFile' accept="image/*" required><br>
+                <button type='submit' class='btn btn-primary'>Upload Image</button>
+            </form>             
+        </div>
+
+        
+        <div class='page' id='searchimage'>
+            <h1>Search for an image</h1>
+            <form id='search-form'>
+                <div class='form-group'>
+                    <label for='titleSearchForm'>Title of image</label>
+                    <input class='form-control' name='title' id='titleSearchForm' required>
+                </div>
+                <button type='submit' class='btn btn-primary'>Submit</button>
+            </form>
+            <div class="container">
+                <hr>
+                <h1>image info:</h1>
+                <hr>
+                <div class="row" id='imageHere'></div>
+            </div>
+            <div class="container">
+                <hr>
+                <h1>comments on this image:</h1>
+                <hr>
+                <div class="row" id='imageComments'></div>
+            </div>
+        </div>
+
+
+        <div class='page' id='comment'>
+            <h1>Leave a Comment!</h1>
+            <form id='comment-form'>
+                <div class='form-group'>
+                    <label for='name'>Name</label>
+                    <input class='form-control' name='name' id='name' required>
+                </div>
+                <div class='form-group'>
+                    <label for='title'>Title of Image</label>
+                    <input class='form-control' name='title' id='title' required >
+                </div>
+                <div class='form-group'>
+                    <label for='usercomment'>Comment</label>
+                    <input class='form-control' name='comment' id='usercomment' required >
+                </div>
+                <button type='submit' class='btn btn-primary'>Submit</button>
+            </form>
+            <div class="container">
+                <hr>
+                <h1>comments</h1>
+                <hr>
+                <div class="row" id='commentsHere'></div>
+            </div>
+        </div>
+
+    </main>
+   <script src='main.js'></script>
 </body>
 </html>
